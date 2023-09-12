@@ -1,0 +1,22 @@
+
+// Class
+public class Product {
+	
+	// Property
+	public String name;
+	public int totalPrice;
+	public int taxPercentage;
+	public int price; 
+	
+	public void printName() {
+		System.out.println(name);
+	}
+	
+	public void defineName(String name) {
+		this.name = name;
+	}
+	
+	//public void calculateTotalPrice() {
+	//	totalPrice = price * (taxPercentage/100)
+	//}
+}

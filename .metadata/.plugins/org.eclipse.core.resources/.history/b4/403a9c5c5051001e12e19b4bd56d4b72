@@ -1,0 +1,9 @@
+
+public class Boodschappen {
+
+	public String tomaat;
+	
+	public int kosten;
+	
+	public int budget;
+}

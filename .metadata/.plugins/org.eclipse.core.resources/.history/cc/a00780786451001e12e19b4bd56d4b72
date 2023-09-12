@@ -1,0 +1,39 @@
+
+public class Boodschappen {
+
+	public String tomaat;
+	public int kosten;
+	
+	//public int budget;
+	
+	
+	
+	public void printTomaat() {
+		System.out.println("Kleur is " + tomaat);
+	}
+	
+	public void stelTomaatIn (String tomaat) {
+		this.tomaat = tomaat;
+	}
+	
+	public void printKosten() {
+		System.out.println("Kosten zijn " + kosten);
+	}
+	
+	public void stelKostenIn (int kosten) {
+		this.kosten = kosten;
+	}
+	
+	public String beschrijvingTomaatKosten() {
+		String a = "Kleur is " + tomaat + " en prijs is " +  kosten;
+		return a;
+	}
+
+	public Boodschappen() {
+		System.out.println("In constructor");
+		tomaat = "geel";
+		kosten = 2;
+	}
+	
+	
+}

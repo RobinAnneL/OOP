@@ -1,0 +1,64 @@
+
+// Class
+public class Product {
+	
+	// Property
+	public String name;
+	private int totalPrice;
+	private int taxPercentage;
+	private int price; 
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(int totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	public int getTaxPercentage() {
+		return taxPercentage;
+	}
+
+	public void setTaxPercentage(int taxPercentage) {
+		this.taxPercentage = taxPercentage;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public void printName() {
+		System.out.println(name);
+	}
+	
+	public void defineName(String name) {
+		this.name = name;
+	}
+	
+	//public void calculateTotalPrice() {
+	//	totalPrice = price * (taxPercentage/100)
+	//}
+	
+	public String description() {
+		String a = "Naam is " + name + " en prijs is " +  price;
+		return a;
+		
+		// zelfde: return "Naam is " + name + " en prijs is " +  price
+		
+		//alles onder de return wordt nooit uitgevoerd, dus mag niet
+	}
+	
+}
